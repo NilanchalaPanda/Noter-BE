@@ -76,7 +76,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "backendNotes.wsgi.application"
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://noter-be.onrender.com"
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
