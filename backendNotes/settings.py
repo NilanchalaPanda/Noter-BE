@@ -78,7 +78,7 @@ WSGI_APPLICATION = "backendNotes.wsgi.application"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://noter-be.onrender.com"
+    "https://notxit.vercel.app/"
 ]
 
 # Database
