@@ -78,7 +78,8 @@ WSGI_APPLICATION = "backendNotes.wsgi.application"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://notxit.vercel.app/"
+    "http://localhost:5174",
+    "https://notxit.vercel.app"
 ]
 
 # Database
